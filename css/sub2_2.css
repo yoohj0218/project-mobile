@@ -1,0 +1,132 @@
+.visual img{width: 100%;height: 230px;object-fit: cover;object-position: center;}
+
+.sub_nav ul{display: flex;justify-content: center;margin:0 auto;border-bottom: 1px solid #ccc;margin-bottom: 50px;}
+.sub_nav ul li{width: 33.3%;}
+.sub_nav ul li a{font-size: var(--font-16-size);text-align: center;font-weight: 500;padding: 10px 0;}
+.sub_nav li a.active{background:var(--color-main1);color: #fff;}
+
+#content .title_area h2{text-align: center;font-size: var(--font-32-size);font-weight: 600;margin-top: 20px;}
+#content .title_area .en_tit{display: block;color: var(--color-main1);text-align: center;}
+
+/* 품질관리 */
+#content .quality_area{margin: 60px 15px 80px;}
+#content .quality_area h3{
+    font-size: var(--font-16-size);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    width: 55%;
+    border-bottom: 1px solid var(--color-point3);
+}
+#content .quality_area h3 .tit_point{
+    font-size: var(--font-26-size);
+    margin-right: 6px;
+    font-weight: 600;
+}
+#content .quality_area p{
+    font-size: var(--font-16-size);
+    text-align: justify;
+    word-break: keep-all;
+    margin-bottom: 50px;
+}
+#content .quality_area ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1%;
+}
+#content .quality_area ul li{
+    width: 48%;
+    margin-bottom:1%;
+    background: #E0ECF5;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+#content .quality_area ul li:nth-of-type(1){
+    border-radius: 30px 0 0 0;
+}
+#content .quality_area ul li:nth-of-type(2){
+    border-radius: 0 30px 0 0;
+}
+#content .quality_area ul li:nth-of-type(3){
+    border-radius: 0 0  0 30px;
+}
+#content .quality_area ul li:nth-of-type(4){
+    border-radius: 0 0  30px 0;
+}
+#content .quality_area ul li strong{
+    font-size: var(--font-26-size);
+    margin-bottom: 20px;
+    display: block;
+    color: var(--color-main1);
+}
+#content .quality_area ul li strong span{
+    font-size: 1.02rem;
+    font-weight: 500;
+    padding-left: 3px;
+    color: #333;
+}
+#content .quality_area ul li dt{
+    font-size: var(--font-16-size);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#content .quality_area ul li dd{
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* 제조시설 */
+#content .fac{margin: 50px 15px 100px;}
+#content .fac img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+#content .fac h3{
+    font-size: var(--font-16-size);
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    width: 65%;
+    border-bottom: 1px solid var(--color-point3);
+}
+#content .fac h3 .tit_point{
+    font-size: var(--font-26-size);
+    margin-right: 6px;
+    font-weight: 600;
+}
+#content .fac li{
+    box-shadow: 1px 1px 5px 0 rgba(185, 185, 185, 0.5);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+#content .fac li dl{padding: 10px;}
+#content .fac li dt .fac_name{
+    font-size: var(--font-18-size);
+    font-weight: 600;
+    display: block;
+}
+#content .fac li dt .fac_tit{
+    font-size: var(--font-20-size);
+    padding: 15px 0;
+    display: block;
+    color: var(--color-main1);
+    font-weight: 500;
+    /* border-bottom: 1px solid #ccc;    */
+}
+#content .fac .trigger{position: relative;}
+#content .fac .trigger .icon{
+    position: absolute;
+    right: -2%;top: 70%;
+    color: var(--color-main1);
+}
+#content .fac li dd{
+    padding: 15px 0;
+    border-top: 1px solid #ccc;
+}
+#content .fac li dd p{
+    font-size: var(--font-16-size);
+    line-height: 1.8;
+    text-align: justify;
+}

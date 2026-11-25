@@ -1,0 +1,71 @@
+/* sub1_1 기업소개콘텐츠 */
+.visual img{width: 100%;height: 230px;object-fit: cover;object-position: center;}
+
+.sub_nav ul{display: flex;justify-content: center;margin:0 auto;border-bottom: 1px solid #ccc;margin-bottom: 50px;}
+.sub_nav ul li{width: 25%;}
+.sub_nav ul li a{font-size: var(--font-16-size);text-align: center;font-weight: 500;padding: 10px 0;}
+.sub_nav li a.active{background:var(--color-main1);color: #fff;}
+
+#content .title_area h2{text-align: center;font-size: var(--font-32-size);font-weight: 600;margin-top: 20px;}
+#content .title_area .en_tit{display: block;color: var(--color-main1);text-align: center;}
+#content .title_area p{text-align: center;margin:50px 0;font-size:var(--font-16-size);font-weight: 600;line-height: 1.6;}
+
+#content .img_box{
+    background: url(../images/sub1_1/sub_01x2.jpg)no-repeat center center;
+    padding: 50px 30px;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+#content .content_area .img_box h3{
+    color: #fff;
+    font-size: var(--font-26-size);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#content .img_box .img_tit{
+    font-size: var(--font-20-size);
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: #fff;
+}
+#content .img_box .txt_box{
+    color: #fff;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    border-radius: 24px;
+    padding: 15px;
+    box-sizing: border-box;
+    line-height: 1.6;
+    text-align: justify;
+    font-size: var(--font-16-size);
+}
+#content .img_box .txt_box .txt1{margin-bottom: 10px;}
+#content .main_box{padding-bottom: 20px;}
+#content .main_box ul li{
+    margin:50px 20px 60px;
+}
+#content .main_box ul li img{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+#content .main_box .main_txtbox{padding: 30px 20px;}
+#content .main_box ul li h4{
+    color: var(--color-main2);
+    font-weight: 700;
+    font-size: var(--font-30-size);
+    margin-bottom: 20px;
+}
+#content .main_box ul li dl dt{
+    font-size: var(--font-20-size);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#content .main_box ul li dl dd{
+    font-size: var(--font-16-size);
+    line-height: 1.6;
+    text-align: justify;
+}

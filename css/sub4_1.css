@@ -1,0 +1,269 @@
+.visual img{width: 100%;height: 230px;object-fit: cover;object-position: center;}
+
+.sub_nav ul{display: flex;justify-content: center;margin:0 auto;border-bottom: 1px solid #ccc;margin-bottom: 50px;}
+.sub_nav ul li{width: 33.3%;}
+.sub_nav ul li a{font-size: var(--font-16-size);text-align: center;font-weight: 500;padding: 10px 0;}
+.sub_nav li a.active{background:var(--color-main1);color: #fff;}
+
+#content .title_area h2{text-align: center;font-size: var(--font-32-size);font-weight: 600;margin-top: 20px;}
+#content .title_area .en_tit{display: block;color: var(--color-main1);text-align: center;margin-bottom: 50px;}
+#content .title_area p{text-align: center;margin:50px 0;font-size:var(--font-16-size);font-weight: 600;line-height: 1.6;}
+
+/* 서브메뉴 */
+#content .content_area .tabs .sub_menu{
+    margin: 0 30px;
+}
+#content .content_area .tabs .tab_menu{
+    display: flex;
+    border: 1px solid var(--color-point1);
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#content .content_area .tabs .tab_menu li{width: 100%;}
+#content .content_area .tabs .tab_menu a{
+    font-size:1.1rem;
+    padding: 10px 0; 
+    text-align: center;
+}
+#content .content_area .tabs .tab_menu a.active{
+    background: var(--color-point1);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+/* 환경경영 */
+#content .content_area .esg_area1 .e_tit{
+    margin: 50px 0 80px;
+    background: url(../images/sub4_1/sub_01x2.jpg)no-repeat center;
+    height: 200px;
+    background-size: cover;
+    padding: 50px 20px;
+}
+#content .content_area .esg_area1 .e_tit h3{
+    color: #fff;
+    font-size: var(--font-30-size);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#content .content_area .esg_area1 .e_tit h3 span{
+    font-size: var(--font-16-size);
+    font-weight: 500;
+    padding-left: 5px;
+}
+#content .content_area .esg_area1 .e_tit p{
+    color: #fff;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+#content .content_area .e_part1 h4,#content .content_area .e_part2 h4{
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#content .content_area .e_part2 h4{
+    color: #025027;
+}
+#content .content_area .e_part1 ul{
+    width: 80%;
+    margin: 0 auto 80px;
+}
+#content .content_area .e_part1 dl{
+    border: 1px solid var(--color-point1);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#content .content_area .e_part1 dt{
+    font-size: var(--font-18-size);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#content .content_area .e_part1 dd{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+#content .content_area .e_part2{padding:50px 25px;background:#fbfffd;}
+#content .content_area .e_part2 li{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}#content .content_area .e_part2 li:nth-of-type(4){
+    border-bottom: none;
+}
+#content .content_area .e_part2 dt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--font-18-size);
+    font-weight: 500;
+}
+#content .content_area .e_part2 dt img{
+    width: 35px;
+}
+#content .content_area .e_part2 dd{
+    padding: 20px 10px 30px;
+    font-size: 1.1rem;
+    text-align: justify
+}
+/* 사회공헌 */
+#content .content_area .esg_area2 .s_tit{
+    margin: 50px 0 80px;
+    background: url(../images/sub4_1/sub_02x2.jpg)no-repeat center;
+    height: 200px;
+    background-size: cover;
+    padding: 50px 20px;
+}
+#content .content_area .esg_area2 .s_tit h3{
+    color: #fff;
+    font-size: var(--font-30-size);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#content .content_area .esg_area2 .s_tit h3 span{
+    font-size: var(--font-16-size);
+    font-weight: 500;
+    padding-left: 5px;
+}
+#content .content_area .esg_area2 .s_tit p{
+    color: #fff;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+#content .content_area .s_part1 h4,#content .content_area .s_part2 h4{
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#content .content_area .s_part2 h4{
+    color: #025027;
+}
+#content .content_area .s_part1 ul{
+    width: 80%;
+    margin: 0 auto 80px;
+}
+#content .content_area .s_part1 dl{
+    border: 1px solid var(--color-point1);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#content .content_area .s_part1 dt{
+    font-size: var(--font-18-size);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#content .content_area .s_part1 dd{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+#content .content_area .s_part2{padding:50px 25px;background:#fbfffd;}
+#content .content_area .s_part2 li{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}#content .content_area .s_part2 li:nth-of-type(3){
+    border-bottom: none;
+}
+#content .content_area .s_part2 dt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--font-18-size);
+    font-weight: 500;
+}
+#content .content_area .s_part2 dt img{
+    width: 35px;
+}
+#content .content_area .s_part2 dd{
+    padding: 20px 10px 30px;
+    font-size: 1.1rem;
+    text-align: justify
+}
+/* 사회공헌 */
+#content .content_area .esg_area3 .g_tit{
+    margin: 50px 0 80px;
+    background: url(../images/sub4_1/sub_03x2.jpg)no-repeat center;
+    height: 200px;
+    background-size: cover;
+    padding: 50px 20px;
+}
+#content .content_area .esg_area3 .g_tit h3{
+    color: #fff;
+    font-size: var(--font-30-size);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#content .content_area .esg_area3 .g_tit h3 span{
+    font-size: var(--font-16-size);
+    font-weight: 500;
+    padding-left: 5px;
+}
+#content .content_area .esg_area3 .g_tit p{
+    color: #fff;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+#content .content_area .g_part1 h4,#content .content_area .g_part2 h4{
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#content .content_area .g_part2 h4{
+    color: #025027;
+}
+#content .content_area .g_part1 ul{
+    width: 80%;
+    margin: 0 auto 80px;
+}
+#content .content_area .g_part1 dl{
+    border: 1px solid var(--color-point1);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#content .content_area .g_part1 dt{
+    font-size: var(--font-18-size);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#content .content_area .g_part1 dd{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+#content .content_area .g_part2{padding:50px 25px;background:#fbfffd;}
+#content .content_area .g_part2 li{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}#content .content_area .g_part2 li:nth-of-type(3){
+    border-bottom: none;
+}
+#content .content_area .g_part2 dt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--font-18-size);
+    font-weight: 500;
+}
+#content .content_area .g_part2 dt img{
+    width: 35px;
+}
+#content .content_area .g_part2 dd{
+    padding: 20px 10px 30px;
+    font-size: 1.1rem;
+    text-align: justify
+}

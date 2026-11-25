@@ -1,0 +1,94 @@
+.visual img{width: 100%;height: 230px;object-fit: cover;object-position: center;}
+
+.sub_nav ul{display: flex;justify-content: center;margin:0 auto;border-bottom: 1px solid #ccc;margin-bottom: 50px;}
+.sub_nav ul li{width: 25%;}
+.sub_nav ul li a{font-size: var(--font-16-size);text-align: center;font-weight: 500;padding: 10px 0;}
+.sub_nav li a.active{background:var(--color-main1);color: #fff;}
+
+#content .title_area h2{text-align: center;font-size: var(--font-32-size);font-weight: 600;margin-top: 20px;}
+#content .title_area .en_tit{display: block;color: var(--color-main1);text-align: center;}
+#content .title_area p{text-align: center;margin: 50px 0;font-size:var(--font-16-size);font-weight:600;line-height: 1.6;}
+
+/* 연도네비 */
+#content .content_area .subNav ul{
+    display: flex;
+    justify-content: space-around;
+}
+#content .content_area .subNav ul li{
+    width: 25%;
+    font-weight: 600;
+}
+#content .content_area .subNav ul li:focus{
+    background: var(--color-main1);
+    color: #fff;
+}
+#content .content_area .subNav ul li a{
+    text-align: center;
+    padding: 10px 0;
+    border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#content .content_area .history_nav{
+    margin-bottom: 50px;
+}
+/* 연도sub메뉴 활성화 scroll spy */
+.navBox ul li .spy{
+    background: var(--color-main1);
+    color: #fff;
+}
+#content .navOn{
+    position: fixed;
+    width: 100%;
+    z-index:100; 
+    left:0; top: 0;
+    background: #fff;
+}
+    
+
+/* 본문 */
+#content .content_area .main_box{margin: 20px 20px 80px;}
+#content .content_area .main_box dl{
+    position: relative;
+}
+#content .content_area .main_box dt{
+    font-size: var(--font-28-size);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#content .content_area .main_box dt:after{
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 60px;
+    bottom: 0;
+    width: 1.5px;
+    background: #ddd;
+    margin-bottom: 10px;
+}  
+#content .content_area .main_box dt::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 1px;
+    bottom: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-point3);
+    z-index: 10;
+}
+#content .content_area .main_box dd{
+    padding-left: 50px;
+    line-height: 2;
+    text-indent: -25px;
+    word-break: keep-all;
+}
+#content .content_area .main_box dd .his_month{
+    font-size: var(--font-18-size);
+    font-weight: 600;
+    color: var(--color-main1);
+}
+#content .content_area .main_box dd .svg-inline--fa{
+    color: rgb(255, 170, 0);
+}
+#content .content_area dl{margin-bottom: 20px;}

@@ -1,0 +1,79 @@
+.visual img{width: 100%;height: 230px;object-fit: cover;object-position: center;}
+
+.sub_nav ul{display: flex;justify-content: center;margin:0 auto;border-bottom: 1px solid #ccc;margin-bottom: 50px;}
+.sub_nav ul li{width: 33.3%;}
+.sub_nav ul li a{font-size: var(--font-16-size);text-align: center;font-weight: 500;padding: 10px 0;}
+.sub_nav li a.active{background:var(--color-main1);color: #fff;}
+
+#content .title_area h2{text-align: center;font-size: var(--font-32-size);font-weight: 600;margin-top: 20px;}
+#content .title_area .en_tit{display: block;color: var(--color-main1);text-align: center;}
+
+#content .img_main{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: url("../images/sub2_3/sub_01x2.jpg")no-repeat right center;
+    background-size: cover;
+    margin: 50px 0;
+}
+#content .img_main p{
+    position: absolute;
+}
+#content .img_main .tit1{
+    right: 70px;top:28%;
+    line-height: 1.8;
+    font-size: var(--font-20-size);
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    margin-bottom: 15px;
+}
+#content .img_main .tit2{
+    right: 3px;top: 62%;
+    font-size: var(--font-16-size);
+    font-weight: 500;
+}
+/* network리스트 */
+#content .add_area{
+    padding: 50px 20px 100px;
+}
+
+#content .add_area ul li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: -1px;
+    padding: 20px;
+}
+#content .add_area ul li a h3{
+    font-size: var(--font-20-size);
+    font-weight: 600;
+}
+#content .add_area ul li .add_list{
+    margin: 30px 0 30px 40px;
+}
+#content .add_area ul li .add_list dl:nth-of-type(1){
+    margin-bottom: 30px;
+}
+#content .add_area ul li .add_list dt{
+    font-size: var(--font-18-size);
+    font-weight: 500;
+    color: var(--color-main2);
+    margin-bottom: 15px;
+}
+#content .add_area ul li .add_list dd{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#content .add_area ul li .add_list dd:nth-of-type(1){
+    margin-bottom: 10px;
+}
+#content .add_area ul li .add_list dd .add_info{
+    font-weight: 500;
+    color: var(--color-point1);
+    font-size: var(--font-16-size);
+    display: block;
+    width: 50px
+}

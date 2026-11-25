@@ -1,0 +1,50 @@
+.visual img{width: 100%;height: 230px;object-fit: cover;object-position: center;}
+
+.sub_nav ul{display: flex;justify-content: center;margin:0 auto;border-bottom: 1px solid #ccc;margin-bottom: 50px;}
+.sub_nav ul li{width: 25%;}
+.sub_nav ul li a{font-size: var(--font-16-size);text-align: center;font-weight: 500;padding: 10px 0;}
+.sub_nav li a.active{background:var(--color-main1);color: #fff;}
+
+#content .title_area h2{text-align: center;font-size: var(--font-32-size);font-weight: 600;margin-top: 20px;}
+#content .title_area .en_tit{display: block;color: var(--color-main1);text-align: center;}
+#content .title_area p{text-align: center;margin: 50px 0;font-size:var(--font-16-size);font-weight:600;line-height: 1.6;}
+
+#content .content_area .ceo_img{padding:20px 0 0 20px;}
+#content .content_area .ceo_img img{
+    width: 100%;
+    border-radius: 46% 0 0 46%;
+}
+#content .content_area .hello{
+    font-size: var(--font-20-size);
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+#content .content_area .hello strong{
+    font-size: var(--font-28-size);
+    font-weight: 600;
+    color: var(--color-main1);
+    line-height: 2.3;
+}
+#content .content_area .message{padding: 30px 20px 50px;}
+#content .content_area .ceo_text{
+    margin-bottom: 18px;
+    font-size: var(--font-16-size);
+    text-align: justify;
+    line-height: 1.6;
+}
+#content .content_area .ceo_text span{
+    color: var(--color-main1);
+    font-size: var(--font-18-size);
+    font-weight: 500;
+}
+#content .content_area .message .ceo_sign{
+    display: block;
+    text-align: center;
+    margin: 50px 0 ;
+    font-weight: 500;
+    font-size: var(--font-18-size);
+}
+#content .content_area .message .ceo_sign img{
+    height: 20px;
+    margin-left: 15px;
+}
