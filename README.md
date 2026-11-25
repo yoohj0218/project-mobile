@@ -21,7 +21,7 @@
 * PHP / My-SQL
 * Firebase(firestore database & hosting) 
 * Git & Github
-* Photoshop/Figma
+* Photoshop / Figma
 
 ### ⚠️ 웹 표준 / 웹 접근성
 * W3C 마크업검사 및 css검사 완료 
